@@ -43,6 +43,13 @@
 
 <p><img src="Faces.jpg" alt="Credits" width="400" height="400"></p>
     
+<button onclick="myFunction()">Click me</button>
+<br><br>
+    First name: <input id="firstName" type="text" name="FirstName" value=""> 
+    <button onclick="myFunctionWithArgs(document.getElementById('firstName').value)">Say Hi</button>
+    
+    <br>
+
 <p> YouTube Video: GTA V </p>
 <iframe width="400" height="360" src="//www.youtube.com/embed/RWZ7aHS7zbc" frameborder="0" allowfullscreen></iframe>
 
@@ -53,6 +60,19 @@ Copyright &#169 AnoobisPrime.com <br>
     Thank You for visiting this website. <br>
     <script> document.getElementById.("Bottom").innerHTML = Date(); </script>
 </div>
+
+<script>
+function myFunction() {
+    alert("Hello");
+}
+    
+function myFunctionWithArgs(name) {
+    alert("Hello, " + name);
+}
+</script>
+<noscript>
+    Sorry, your browser does not support JavaScript!
+</noscript>
 
 </body>
 </html>
